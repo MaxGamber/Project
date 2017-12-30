@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+ pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <title>Delete File</title>
+    <link rel="stylesheet" href="style.css" />
+ </head>
+ 
+ <body>
+ 
+    <jsp:include page="_header.jsp"></jsp:include>
+    <jsp:include page="_menu.jsp"></jsp:include>
+    
+    <p style="color: red;">${errorString}</p>
+    <a href="filesList">Files List</a>
+  
+ </body>
+</html>
